@@ -1,3 +1,148 @@
-body {
-    background-color:white;
+/*Sector: Colegio */
+
+.cuadro1 {
+text-size-adjust: 100%;
+font-size: 1.2rem;
+line-height: 1.5;
+box-sizing: border-box;
+display: block;
+float: left;
+width: 100%;
+height: auto;
+position: relative;
+color: #333;
+background: #fff url(https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat scroll 0 0;
 }
+
+.contenido {
+    text-size-adjust: 100%;
+    line-height: 1.5;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    float: left;
+    color: #333;
+    z-index: 105;
+    border-radius: 0 15px 15px 0;
+    background-color: rgba(255,255,255,0.95);
+    position: relative;
+    width: 580px;
+    min-height: 290px;
+    margin: 30px 0;
+    padding: 0 30px 0 35px;
+    font-size: 18px;    
+}
+
+.titulo {
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    margin: 1.5rem 0;
+    color: black !important;
+    font-size: 3rem;
+}
+
+.row1 {
+    text-size-adjust: 100%;
+    line-height: 1.5;
+    color: #333;
+    font-size: 18px;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    zoom: 1;    
+}
+
+.description {
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    width: auto;
+    border: 0;
+    color: #333;
+    margin: 8px 0;
+    line-height: 1;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;    
+}
+
+li {
+    text-size-adjust: 100%;
+    color: #333;
+    line-height: 1;
+    list-style: none;
+    font-size: 18px;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;    
+}
+
+.row2 {
+    text-size-adjust: 100%;
+    line-height: 1.5;
+    font-size: 18px;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    zoom: 1;
+    bottom: 30px;  
+}
+
+.boton {
+    text-size-adjust: 100%;
+    font-size: 18px;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    padding-right: 1.7rem;
+    margin: 0 1.8rem 0 0 !important;
+    padding-top: 1.2rem !important;
+    width: 26.5rem !important;
+    float: left !important;
+    position: relative !important;
+    bottom: 0 !important;
+    line-height: 2rem;
+    display: block;  
+}
+
+a {
+    text-size-adjust: 100%;
+    font-size: 18px;
+    line-height: 2rem;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0s ease 0s;
+    border-bottom: 0 none;    
+}
+
+.btn:hover {
+    color: #fcc4c0;
+    background-color: white;
+  }
+
+.btn {
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    transition: background 0.3s ease-out 0s;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    text-align: center;
+    line-height: 2rem;
+    padding: 1.4rem;
+    display: block;
+    border-radius: 8px;
+    width: auto !important;
+    background-color: #fcc4c0;
+    border: 1px solid #fcc4c0;
+    color: #FFF;
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin-bottom: 15px;  
+    margin-left: 30px;
+}
+
+
+
