@@ -1,0 +1,25 @@
+{
+  "name": "UECElibertador",
+  "version": "1.0.0",
+  "description": "Página web Colegio Libertador",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelbm1989/UECElibertador.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miguelbm1989/UECElibertador/issues"
+  },
+  "homepage": "https://github.com/miguelbm1989/UECElibertador#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
+}
