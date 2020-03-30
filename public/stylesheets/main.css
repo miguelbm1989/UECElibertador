@@ -1,17 +1,17 @@
 /*Sector: Colegio */
 
 .cuadro1 {
-text-size-adjust: 100%;
-font-size: 1.2rem;
-line-height: 1.5;
-box-sizing: border-box;
-display: block;
-float: left;
-width: 100%;
-height: auto;
-position: relative;
-color: #333;
-background: #fff url(https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat scroll 0 0;
+    text-size-adjust: 100%;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+    position: relative;
+    color: #333;
+    background: #fff url(https://images.pexels.com/photos/1227497/pexels-photo-1227497.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat scroll 0 0;
 }
 
 .contenido {
@@ -22,7 +22,7 @@ background: #fff url(https://images.pexels.com/photos/1037992/pexels-photo-10379
     float: left;
     color: #333;
     z-index: 105;
-    border-radius: 0 15px 15px 0;
+    border-radius: 0px 15px 15px 0px;
     background-color: rgba(255,255,255,0.95);
     position: relative;
     width: 580px;
@@ -117,7 +117,7 @@ a {
 }
 
 .btn:hover {
-    color: #fcc4c0;
+    color: #6db0a1;
     background-color: white;
   }
 
@@ -135,8 +135,8 @@ a {
     display: block;
     border-radius: 8px;
     width: auto !important;
-    background-color: #fcc4c0;
-    border: 1px solid #fcc4c0;
+    background-color: #6db0a1;
+    border: 1px solid #6db0a1;
     color: #FFF;
     font-size: 1.9rem;
     font-weight: bold;
@@ -144,5 +144,109 @@ a {
     margin-left: 30px;
 }
 
+/*FUNDADORES*/
+.cuadro2 {
+    text-size-adjust: 100%;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+    position: relative;
+    color: #333;
+    background-color: white;
+    min-height: 397.969px;
+    margin-top:20px;
+}
 
+.titulo2 {
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    color: black !important;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.flexboxc2 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#Ellipse_1 {
+	width: 250px;
+	height: 250px;
+    overflow: visible;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+#Ellipse_3 {
+	width: 250px;
+	height: 250px;
+    overflow: visible;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+#Ellipse_2 {
+	width: 250px;
+	height: 250px;
+    overflow: visible;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.cuadro3 {
+    text-size-adjust: 100%;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    width: 555px;
+    margin-bottom: 20px;
+    height: auto;
+    min-height: 300px;
+    position: relative;
+    color: #333;
+    background-color: #f3f5f7;
+    background: linear-gradient(rgba(243,245,247), rgba(230,234,235));
+}
+
+.cuadro4 {
+    text-size-adjust: 100%;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    width: 555px;
+    margin-bottom: 20px;
+    height: auto;
+    min-height: 300px;
+    position: relative;
+    color: #333;
+    background: #fff url(https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) no-repeat scroll 0 0;
+}
+
+#finalidad {
+    text-size-adjust: 100%;
+    line-height: 1.5;
+    box-sizing: border-box;
+    color: black;
+    position: relative;
+    font-size: 40px;
+    padding: 0 30px 0 35px;
+    text-align: center;
+    display: flex;
+    margin-top: 50px;
+}
 
