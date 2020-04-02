@@ -17,6 +17,10 @@ app.get('/colegio', function(req,res){
     res.render('colegio');
 });
 
+app.get('/contactanos', function (req,res){
+    res.render('contactanos');
+});
+
 app.listen(3002, () =>{
     console.log('Listening');
 });
